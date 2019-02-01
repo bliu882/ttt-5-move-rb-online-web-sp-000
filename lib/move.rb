@@ -9,11 +9,7 @@ end
   
 # code your input_to_index and move method here!
 def input_to_index
-  puts "Turn 2"
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  position = gets.strip
-  token = "x"
-  board[position.to_i]=token
+  input = 
 end
 
 def move(board, index, value) 
