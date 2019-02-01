@@ -8,9 +8,10 @@ end
 
   
 # code your input_to_index and move method here!
-
-puts "Turn 2"
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-position = gets.strip
-token = "x"
-board[position.to_i]=token
+def input_to_index
+  puts "Turn 2"
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  position = gets.strip
+  token = "x"
+  board[position.to_i]=token
+end
