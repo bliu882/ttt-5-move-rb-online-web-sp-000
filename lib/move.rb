@@ -15,3 +15,7 @@ def input_to_index
   token = "x"
   board[position.to_i]=token
 end
+
+def move(board, index, value) 
+  board[index] = value
+end
